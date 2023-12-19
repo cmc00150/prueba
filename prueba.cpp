@@ -12,15 +12,6 @@ string numberToBinary(int number) {
     return binary;
 }
 
-int getRandomNumber() {
-    // Seed the random number generator with the current time
-    srand(time(0));
-    
-    // Generate a random number between 0 and RAND_MAX
-    int randomNumber = rand();
-    
-    return randomNumber;
-}
 
 // Esta función convierte un número decimal a su representación binaria en formato IEEE 754.
 string decimalToBinaryIEEE754(float number) {
